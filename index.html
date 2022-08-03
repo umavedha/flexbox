@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Flex Box</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Flex Box</h1>
+    </div>
+    <h2>Flex:</h2>
+    <div class="flexProp">
+
+        <div>
+            <div>
+                <h3>display:block</h3>
+            </div>
+            <div class="parent">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3>display:flex</h3>
+            </div>
+            <div class="parent2">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+    </div>
+    <h2>Flex-direction:</h2>
+    <div class="flexProp">
+
+        <div>
+            <div>
+                <h3><br>display: flex;<br>
+                    flex-direction: row;<br>
+                </h3>
+            </div>
+            <div class="parent3">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3><br>display: flex;<br>
+                    flex-direction: row-reverse;<br>
+                </h3>
+            </div>
+            <div class="parent5">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+    </div>
+    <div class="flexProp">
+        <div>
+            <div>
+                <h3><br>display: flex;<br>
+                    flex-direction: column;<br>
+                </h3>
+            </div>
+            <div class="parent4">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h3><br>display: flex;<br>
+                    flex-direction: column-reverse;<br>
+                </h3>
+            </div>
+            <div class="parent6">
+                <div class="item">1</div>
+                <div class="item" style="background-color: aqua;">2</div>
+                <div class="item" style="background-color: burlywood;">3</div>
+                <div class="item" style="background-color: cornflowerblue; ">4</div>
+                <div class="item" style="background-color: crimson; ">5</div>
+            </div>
+        </div>
+    </div>
+    <h2>Flex-wrap:</h2>
+    <div>
+
+        <div class="row">
+            <div class="col-4">
+                <div>
+                    <div>
+                        <h3><br>display: flex;<br>
+                            flex-wrap: wrap;<br>
+                        </h3>
+                    </div>
+                    <div class="parent7">
+                        <div class="item">1</div>
+                        <div class="item" style="background-color: aqua;">2</div>
+                        <div class="item" style="background-color: burlywood;">3</div>
+                        <div class="item" style="background-color: cornflowerblue;width: 90px; ">4</div>
+                        <div class="item" style="background-color: crimson; ">5</div>
+                        <div class="item" style="background-color: rgb(231, 141, 24);width: 150px;">6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <div>
+                        <h3><br>display: flex;<br>
+                            flex-wrap: nowrap;<br>
+                        </h3>
+                    </div>
+                    <div class="parent8">
+                        <div class="item">1</div>
+                        <div class="item" style="background-color: aqua;">2</div>
+                        <div class="item" style="background-color: burlywood;">3</div>
+                        <div class="item" style="background-color: cornflowerblue; ">4</div>
+                        <div class="item" style="background-color: crimson; ">5</div>
+                        <div class="item" style="background-color: rgb(231, 141, 24);">6</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <div>
+                        <h3><br>display: flex;<br>
+                            flex-wrap: wrap-reverse;<br>
+                        </h3>
+                    </div>
+                    <div class="parent8">
+                        <div class="item">1</div>
+                        <div class="item" style="background-color: aqua;">2</div>
+                        <div class="item" style="background-color: burlywood;">3</div>
+                        <div class="item" style="background-color: cornflowerblue; ">4</div>
+                        <div class="item" style="background-color: crimson; ">5</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
