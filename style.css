@@ -2,18 +2,30 @@
     display: flex;
     justify-content: center;
 }
-.item{
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flexProp {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* display:block */
+.item {
     width: 82px;
     height: 82px;
     background-color: blanchedalmond;
 }
-.parent{
+
+.parent {
     width: 200px;
     height: 300px;
     background-color: honeydew;
     border: 1px solid #c3c3c3;
 }
+/* ------------------------------------------ */
 
+/* display:flex */
 .parent2{
 display: flex;
 width: 300px;
@@ -21,10 +33,9 @@ height: 300px;
 background-color: honeydew;
 border: 1px solid #c3c3c3;
 }
-h1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+/* ------------------------------------------ */
+
+/* flex-direction:row */
 .parent3{
     display: flex;
     flex-direction: row;
@@ -32,18 +43,21 @@ h1{
     height: 200px;
     background-color: honeydew;
     border: 1px solid #c3c3c3;
-
-    /* justify-content: center; */
 }
+/* ----------------------------------------------- */
+
+/* flex-direction:column */
 .parent4 {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     width: 200px;
     height: 200px;
     background-color: honeydew;
     border: 1px solid #c3c3c3;
 }
+/* ------------------------------------------------ */
+
+/* flex-direction: row-reverse */
 .parent5{
     display: flex;
     flex-direction: row-reverse;
@@ -53,10 +67,9 @@ h1{
     border: 1px solid #c3c3c3;
 
 }
-.flexProp{
-    display: flex;
-    justify-content: space-evenly;
-}
+/* ------------------------------------------------ */
+
+/*flex-direction: column-reverse  */
 .parent6{
     display: flex;
     flex-direction: column-reverse;
@@ -65,6 +78,9 @@ h1{
     background-color: honeydew;
     border: 1px solid #c3c3c3;
 }
+/* ---------------------------------------------- */
+
+/* flex-wrap: wrap; */
 .parent7{
     display: flex;
     justify-content: space-around;
@@ -75,6 +91,9 @@ h1{
     border: 1px solid #c3c3c3;
 
 }
+/* --------------------------------------------- */
+
+/* flex-wrap: nowrap; */
 .parent9{
     display: flex;
     justify-content: space-around;
@@ -84,8 +103,10 @@ h1{
     height: 150px;
      background-color: honeydew;
     border: 1px solid #c3c3c3;
-
 }
+/* ------------------------------------------- */
+
+/* flex-wrap: wrap-reverse */
 .parent8 {
     display: flex;
     justify-content: space-around;
@@ -95,11 +116,9 @@ h1{
     background-color: honeydew;
     border: 1px solid #c3c3c3;
 }
-/* .parent10{
-    display: flex;
-    justify-content: flex-start;
-    
-} */
+/* ------------------------------------------ */
+
+/* justify-content: flex-start */
 .justify1{
 width: 300px;
 height: 200px;
@@ -108,6 +127,9 @@ display: flex;
 justify-content: flex-start;
 border: 1px solid #c3c3c3;
 }
+/* ------------------------------------------ */
+
+/* justify-content: flex-end */
 .justify2 {
     width: 300px;
     height: 200px;
@@ -116,6 +138,9 @@ border: 1px solid #c3c3c3;
     justify-content: flex-end;
     border: 1px solid #c3c3c3;
 }
+/* ------------------------------------------- */
+
+/*justify-content: center  */
 .justify3 {
     width: 300px;
     height: 200px;
@@ -124,13 +149,14 @@ border: 1px solid #c3c3c3;
     justify-content: center;
     border: 1px solid #c3c3c3;
 }
+/* --------------------------------------------- */
+
+/* justify-content: space-between */
 .justify4 {
     width: 300px;
     height: 200px;
     background-color: honeydew;
     border: 1px solid #c3c3c3;
-   
-   
 }
 .parent13 {
     width: 300px;
@@ -140,6 +166,9 @@ border: 1px solid #c3c3c3;
     justify-content: space-between;
     border: 1px solid #c3c3c3;
 }
+/* --------------------------------------------- */
+
+/*justify-content: space-around  */
 .parent14 {
     width: 300px;
     height: 200px;
@@ -148,6 +177,9 @@ border: 1px solid #c3c3c3;
     justify-content: space-around;
     border: 1px solid #c3c3c3;
 }
+/* ---------------------------------------------- */
+
+/*justify-content: space-evenly  */
 .parent15 {
     width: 300px;
     height: 200px;
@@ -156,6 +188,10 @@ border: 1px solid #c3c3c3;
     justify-content: space-evenly;
     border: 1px solid #c3c3c3;
 }
+/* --------------------------------------------- */
+
+
+/* align-content: flex-start */
 .main1 {
     width: 300px;
     height: 300px;
@@ -166,6 +202,7 @@ border: 1px solid #c3c3c3;
     justify-content: space-around;
     background-color: honeydew;
 }
+/* align-content: flex-end */
 .main2 {
     width: 300px;
     height: 300px;
@@ -176,6 +213,7 @@ border: 1px solid #c3c3c3;
     justify-content: space-around;
     background-color: honeydew;
 }
+/* align-content: center */
 .main3 {
     width: 300px;
     height: 300px;
@@ -191,6 +229,8 @@ border: 1px solid #c3c3c3;
     width: 100px;
     height: 70px;
 }
+
+/* align-content: space-between */
 .main4 {
     width: 100px;
     height: 300px;
@@ -201,6 +241,7 @@ border: 1px solid #c3c3c3;
     justify-content: space-around;
     background-color: honeydew;
 }
+/* align-content: space-around */
 .main5 {
     width: 100px;
     height: 300px;
@@ -209,8 +250,8 @@ border: 1px solid #c3c3c3;
     flex-wrap: wrap;
     align-content: space-around;
     background-color: honeydew;
-    /* justify-content: space-around; */
 }
+/* align-content: space-evenly */
 .main6 {
     width: 100px;
     height: 300px;
@@ -219,8 +260,8 @@ border: 1px solid #c3c3c3;
     flex-wrap: wrap;
     align-content: space-evenly;
     background-color: honeydew;
-    /* justify-content: space-around; */
 }
+/* align-content: stretch */
 .main7 {
     width: 100px;
     height: 300px;
@@ -233,8 +274,8 @@ border: 1px solid #c3c3c3;
 .alignitem div{
     width: 100px;
     height: 100px;
-    /* border: 1px solid #c3c3c3; */
 }
+/* align-items: flex-start */
 .main8 {
     width: 300px;
     height: 300px;
@@ -244,6 +285,7 @@ border: 1px solid #c3c3c3;
     align-items: flex-start;
     background-color: honeydew;
 }
+/* align-items: flex-end */
 .main9 {
     width: 300px;
     height: 300px;
@@ -253,6 +295,7 @@ border: 1px solid #c3c3c3;
     align-items: flex-end;
     background-color: honeydew;
 }
+/* align-items: center */
 .main10 {
     width: 300px;
     height: 300px;
@@ -262,8 +305,7 @@ border: 1px solid #c3c3c3;
     align-items: center;
     background-color: honeydew;
 }
-
-
+/*align-items: stretch  */
 .main11 {
     width: 320px;
     height: 200px;
@@ -275,12 +317,13 @@ border: 1px solid #c3c3c3;
 .main11 div{
     width: 100px;
 }
+
+/* align-items: baseline; */
 .main12 {
     width: 300px;
     height: 200px;
     border: 1px solid #c3c3c3;
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: baseline;
     background-color: honeydew;
 }
@@ -288,6 +331,8 @@ border: 1px solid #c3c3c3;
     width: 200px;
     height: 50px;
 }
+
+/* without order */
 .main13 div {
     width: 100px;
     height: 80px;
@@ -297,9 +342,9 @@ border: 1px solid #c3c3c3;
     height: 300px;
     border: 1px solid #c3c3c3;
     display: flex;
-    
     background-color: honeydew;
 }
+/* with order */
 .main13 .order1{
     display: flex;
     order: 2;
@@ -321,6 +366,9 @@ border: 1px solid #c3c3c3;
 .orderHead{
     margin-left: 70px;
 }
+
+
+/* flex-grow ,flex-shrink,flex-base */
 .main14{
     width: 300px;
     height: 300px;
