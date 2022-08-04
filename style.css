@@ -7,8 +7,19 @@
     height: 82px;
     background-color: blanchedalmond;
 }
+.parent{
+    width: 200px;
+    height: 300px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
+}
+
 .parent2{
 display: flex;
+width: 300px;
+height: 300px;
+background-color: honeydew;
+border: 1px solid #c3c3c3;
 }
 h1{
     margin-top: 10px;
@@ -17,16 +28,30 @@ h1{
 .parent3{
     display: flex;
     flex-direction: row;
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
+
     /* justify-content: center; */
 }
 .parent4 {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
 }
 .parent5{
     display: flex;
     flex-direction: row-reverse;
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
+
 }
 .flexProp{
     display: flex;
@@ -35,27 +60,40 @@ h1{
 .parent6{
     display: flex;
     flex-direction: column-reverse;
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
 }
 .parent7{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 200px;
+    width: 300px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
+
 }
 .parent9{
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
-    width: 200px;
+    width: 300px;
+    height: 150px;
+     background-color: honeydew;
+    border: 1px solid #c3c3c3;
+
 }
 .parent8 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     flex-direction: row;
-    width: 200px;
+    width: 300px;
+    background-color: honeydew;
+    border: 1px solid #c3c3c3;
 }
 /* .parent10{
     display: flex;
@@ -68,6 +106,7 @@ height: 200px;
 background-color: honeydew;
 display: flex;
 justify-content: flex-start;
+border: 1px solid #c3c3c3;
 }
 .justify2 {
     width: 300px;
@@ -75,6 +114,7 @@ justify-content: flex-start;
     background-color: honeydew;
     display: flex;
     justify-content: flex-end;
+    border: 1px solid #c3c3c3;
 }
 .justify3 {
     width: 300px;
@@ -82,11 +122,13 @@ justify-content: flex-start;
     background-color: honeydew;
     display: flex;
     justify-content: center;
+    border: 1px solid #c3c3c3;
 }
 .justify4 {
     width: 300px;
     height: 200px;
     background-color: honeydew;
+    border: 1px solid #c3c3c3;
    
    
 }
@@ -96,6 +138,7 @@ justify-content: flex-start;
     background-color: honeydew;
     display: flex;
     justify-content: space-between;
+    border: 1px solid #c3c3c3;
 }
 .parent14 {
     width: 300px;
@@ -103,6 +146,7 @@ justify-content: flex-start;
     background-color: honeydew;
     display: flex;
     justify-content: space-around;
+    border: 1px solid #c3c3c3;
 }
 .parent15 {
     width: 300px;
@@ -110,6 +154,7 @@ justify-content: flex-start;
     background-color: honeydew;
     display: flex;
     justify-content: space-evenly;
+    border: 1px solid #c3c3c3;
 }
 .main1 {
     width: 300px;
@@ -119,6 +164,7 @@ justify-content: flex-start;
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: space-around;
+    background-color: honeydew;
 }
 .main2 {
     width: 300px;
@@ -128,6 +174,7 @@ justify-content: flex-start;
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: space-around;
+    background-color: honeydew;
 }
 .main3 {
     width: 300px;
@@ -137,6 +184,7 @@ justify-content: flex-start;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
+    background-color: honeydew;
 }
 
 .main div {
@@ -151,6 +199,7 @@ justify-content: flex-start;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-around;
+    background-color: honeydew;
 }
 .main5 {
     width: 100px;
@@ -159,6 +208,7 @@ justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
+    background-color: honeydew;
     /* justify-content: space-around; */
 }
 .main6 {
@@ -168,6 +218,7 @@ justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
+    background-color: honeydew;
     /* justify-content: space-around; */
 }
 .main7 {
@@ -177,4 +228,107 @@ justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
+    background-color: honeydew;
+}
+.alignitem div{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid #c3c3c3; */
+}
+.main8 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: honeydew;
+}
+.main9 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: honeydew;
+}
+.main10 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: honeydew;
+}
+
+
+.main11 {
+    width: 320px;
+    height: 200px;
+    border: 2px solid #c3c3c3;
+    display: flex;
+    align-items: stretch;
+    background-color: honeydew;
+}
+.main11 div{
+    width: 100px;
+}
+.main12 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: baseline;
+    background-color: honeydew;
+}
+.main12 div{
+    width: 200px;
+    height: 50px;
+}
+.main13 div {
+    width: 100px;
+    height: 80px;
+}
+.main13 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    
+    background-color: honeydew;
+}
+.main13 .order1{
+    display: flex;
+    order: 2;
+}
+.main13 .order2 {
+    display: flex;
+    order: 3;
+}
+.main13 .order3 {
+    display: flex;
+    order: 1;
+}
+.orderProp{
+    display: flex;
+}
+.orderproperty{
+    margin-left: 50px;
+}
+.orderHead{
+    margin-left: 70px;
+}
+.main14{
+width: 300px;
+height: 300px;
+border: 1px solid #c3c3c3;
+display: flex;
+background-color: honeydew;
+}
+.main14 div{
+    width: 100px;
+    height: 100px;
 }
